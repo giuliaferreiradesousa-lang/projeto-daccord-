@@ -1,0 +1,143 @@
+▲ Next.js 16.3.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.3.7:3000
+✓ Ready in 492ms
+✓ Running next.config.ts took 1079ms
+
+ GET / 200 in 282ms (next.js: 132ms, application-code: 150ms)
+ GET /manifest.webmanifest 200 in 66ms (next.js: 51ms, application-code: 15ms)
+Failed to proxy http://localhost:8000/api/v1/auth/me AggregateError: 
+    at ignore-listed frames {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:8000
+        at <unknown> (Error: connect ECONNREFUSED ::1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 8000
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+AggregateError: 
+    at ignore-listed frames {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:8000
+        at <unknown> (Error: connect ECONNREFUSED ::1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 8000
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+ GET /produtos 200 in 223ms (next.js: 199ms, application-code: 23ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+Failed to proxy http://localhost:8000/api/v1/products AggregateError: 
+    at ignore-listed frames {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:8000
+        at <unknown> (Error: connect ECONNREFUSED ::1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 8000
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+AggregateError: 
+    at ignore-listed frames {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:8000
+        at <unknown> (Error: connect ECONNREFUSED ::1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 8000
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+ GET /manifest.webmanifest 200 in 7ms (next.js: 3ms, application-code: 4ms)
+Failed to proxy http://localhost:8000/api/v1/products AggregateError: 
+    at ignore-listed frames {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:8000
+        at <unknown> (Error: connect ECONNREFUSED ::1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 8000
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+AggregateError: 
+    at ignore-listed frames {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:8000
+        at <unknown> (Error: connect ECONNREFUSED ::1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '::1',
+      port: 8000
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:8000) {
+      errno: -4078,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
